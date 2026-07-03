@@ -6,7 +6,7 @@
   "scripts": {
     "start": "nodemon server.js",
     "test": "jest",
-    "build" : "echo \"biul realizado com sucesso\""
+    "build": "echo \"biul realizado com sucesso\""
   },
   "keywords": [],
   "author": "",
@@ -14,7 +14,10 @@
   "type": "commonjs",
   "dependencies": {
     "express": "^5.2.1",
-    "nodemon": "^3.1.14",
+    "nodemon": "^3.1.14"
+  },
+  "devDependencies": {
+    "jest": "^30.4.2",
     "supertest": "^7.2.2"
   }
 }
